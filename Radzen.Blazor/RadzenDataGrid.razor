@@ -165,7 +165,7 @@
                                                 }
                                                 else
                                                 {
-                                                    <label class="rz-cell-filter-label" style="height:35px; width:100%;" onclick="event.preventDefault()">
+                                                    <span class="rz-cell-filter-label" style="height:35px; width:100%;" onclick="event.preventDefault()">
                                                         @if (PropertyAccess.IsDate(column.FilterPropertyType))
                                                         {
                                                             if (FilterMode == FilterMode.Simple)
@@ -316,7 +316,7 @@
                                                                 <i @onclick="@((args) => ClearFilter(column))" class="rzi rz-cell-filter-clear" style="position:absolute;right:10px;">close</i>
                                                             }
                                                         }
-                                                    </label>
+                                                    </span>
                                                 }
                                             </div>
                                         </div>
